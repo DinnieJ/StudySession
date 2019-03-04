@@ -1,0 +1,3 @@
+/media/jay/B2A05866A05832D9/C++/Math/CMakeFiles/rebuild_cache.dir
+/media/jay/B2A05866A05832D9/C++/Math/CMakeFiles/shit.o.dir
+/media/jay/B2A05866A05832D9/C++/Math/CMakeFiles/edit_cache.dir

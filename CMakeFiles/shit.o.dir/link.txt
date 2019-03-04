@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/shit.o.dir/Main.cpp.o CMakeFiles/shit.o.dir/MathShit.cpp.o  -o shit.o 
