@@ -1,9 +1,12 @@
-
+#include "MathShit.hpp"
 
 
 Mathes::Mathes(){
 }
 
+Mathes::Mathes(int input){
+    m_input = input;
+}
 double Mathes::powerOfTen(int n){
     double result = 1.0;
     if(n>=0)
@@ -68,7 +71,7 @@ void Mathes::equation(int a,int b,int c){
     {
         std::cout<<"Phuong trinh co 2 nghiem\n"<<std::endl;
         std::cout<<"Nghiem 1: "<<(-b+squareRoot(delta))/2<<"\n"<<std::endl;
-        std::cout<<"Nghiem 2: "<<(-b+squareRoot(delta))/2<<"\n"<<std::endl;
+        std::cout<<"Nghiem 2: "<<(-b-squareRoot(delta))/2<<"\n"<<std::endl;
     }
     else if(delta==0.0)
     {
